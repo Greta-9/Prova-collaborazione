@@ -6,6 +6,7 @@ public class cercaLista
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
+        int i =1;
         List<String> lista = new ArrayList<String>();
         System.out.println("Inserisci il tuo nome: ");
         String nome = input.nextLine();
