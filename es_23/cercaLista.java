@@ -26,7 +26,7 @@ public class cercaLista
         }
         else
         {
-            System.out.println("L'elemento non e' presente nella lista");
+            System.out.println("L'elemento non e' presente nella lista!!!!!!!!!");
         }
         input.close();
     }
