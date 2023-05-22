@@ -7,6 +7,9 @@ public class cercaLista
     {
         Scanner input = new Scanner(System.in);
         List<String> lista = new ArrayList<String>();
+        System.out.println("Inserisci il tuo nome: ");
+        String nome = input.nextLine();
+        System.out.println(nome);
         System.out.println("Inserisci gli elementi della lista (e scrivi \"fine\" per terminare l'inserimento): ");
         String elemento = input.nextLine();
         while (!elemento.equals("fine"))//finchè l'elemento è diverso da "fine"
